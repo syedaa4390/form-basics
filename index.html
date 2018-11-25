@@ -17,21 +17,34 @@
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" placeholder= "Last, First" required><br> E-mail:
+            <input type="email" name="email" placeholder= "Example: 123@abc.com" required><br>
 
             <!--add your own inputs below-->
+            <br> School:<input type= "School" name= "School" placeholder= "School Name" required>
 
-
-
-
-
-
-
-
+            <br>Age:
+             <input type= "radio" name= "age" value= "13h" > 13
+             <input type= "radio" name= "age" value= "14" > 14
+             <input type= "radio" name= "age" value= "15" > 15
+             <input type= "radio" name= "age" value= "16" > 16
+             <input type= "radio" name= "age" value= "17" > 17
+             <input type= "radio" name= "age" value= "18" > 18
+             <input type= "radio" name= "age" value= "teacher" > Teacher
+             
+            <br>Continent of Origin:
+            <select name= "continent">
+            <option value= "Asia"> Asia </option>
+            <option value= "Africa"> Africa </option>
+            <option value= "Europe"> Europe </option>
+            <option value= "Australlia"> Australlia </option>
+            <option value= "Antarctica"> Antarctica </option>
+            <option value= "North America" selected> North America </option>
+            <option value= "South America"> South America </option>
+            
             <!--add your own inputs above-->
 
-            <input class="blue-button" type="submit" value="Submit">
+            <br><input class="blue-button" type="submit" value="Submit">
         </form>
     </div>
 </body>
